@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/160-years-of-nate/static/css/main.8f5ae5b5.css",
-    "main.js": "/160-years-of-nate/static/js/main.e9e96333.js",
+    "main.css": "/160-years-of-nate/static/css/main.0975554e.css",
+    "main.js": "/160-years-of-nate/static/js/main.92e15c45.js",
     "static/js/787.a4f07ca3.chunk.js": "/160-years-of-nate/static/js/787.a4f07ca3.chunk.js",
     "static/media/Age-022a.JPG": "/160-years-of-nate/static/media/Age-022a.fb70d89b3f29abf5bbe5.JPG",
     "static/media/Age-017c.JPG": "/160-years-of-nate/static/media/Age-017c.df7adcfa02ad27d53506.JPG",
@@ -52,12 +52,12 @@
     "static/media/Age-011b.heic": "/160-years-of-nate/static/media/Age-011b.548d50efc7e7efc01e2b.heic",
     "static/media/Age-007a.heic": "/160-years-of-nate/static/media/Age-007a.4208f1966eb9122e4699.heic",
     "index.html": "/160-years-of-nate/index.html",
-    "main.8f5ae5b5.css.map": "/160-years-of-nate/static/css/main.8f5ae5b5.css.map",
-    "main.e9e96333.js.map": "/160-years-of-nate/static/js/main.e9e96333.js.map",
+    "main.0975554e.css.map": "/160-years-of-nate/static/css/main.0975554e.css.map",
+    "main.92e15c45.js.map": "/160-years-of-nate/static/js/main.92e15c45.js.map",
     "787.a4f07ca3.chunk.js.map": "/160-years-of-nate/static/js/787.a4f07ca3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f5ae5b5.css",
-    "static/js/main.e9e96333.js"
+    "static/css/main.0975554e.css",
+    "static/js/main.92e15c45.js"
   ]
 }
