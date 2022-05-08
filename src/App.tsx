@@ -31,8 +31,8 @@ function App() {
         return (
           <ImageListItem key={image}>
             <img
-              src={`${image}?fit=crop&auto=format`}
-              srcSet={`${image}?fit=crop&auto=format&dpr=2 2x`}
+              src={`${image}`}
+              srcSet={`${image}`}
               alt={title}
               loading='lazy'
             />
