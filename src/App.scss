@@ -12,12 +12,30 @@ body {
 }
 
 .App {
-    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    $spacing: 10px;
+    margin: $spacing;
+    gap: $spacing;
+    .Header {
+        height: calc(100vh - #{$spacing} * 2);
+    }
+
     @media screen and (min-width: 600px) {
-        margin: 30px
+        $spacing: 30px;
+        margin: $spacing;
+        gap: $spacing;
+        .Header {
+            height: calc(100vh - #{$spacing} * 2);
+        }
     }
     @media screen and (min-width: 1200px) {
-        margin: 50px
+        $spacing: 50px;
+        margin: $spacing;
+        gap: $spacing;
+        .Header {
+            height: calc(100vh - #{$spacing} * 2);
+        }
     }
 }
 
