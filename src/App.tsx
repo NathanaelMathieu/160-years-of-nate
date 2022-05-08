@@ -21,11 +21,13 @@ function App() {
   return (
     <div className='App'>
       <div className='Header'>
-        Most people have their quarter life crisis between the ages of 20 and 30 years old. Bucking that trend, Nate has decided to delay his quarter life crisis until he is 40 years old. This effectively increases his lifespan to 160 years. In celebration of his 24th/160 years, or 3/20th life party, Nate would like to invite you to 91 Rogers Ave, Somerville MA on May 13th from 8:00p - 11:00p. You are encouraged to come as your favorite year from the 160 Years of Nate. See below for outfit ideas.
+        <h4>
+          While most people have their quarter life crisis at 25, Nate has decided to delay his until he is 40 years old. This effectively increases his lifespan to 160 years. In celebration of his 24th of 160 years, or 3/20ths life party, you are invited to <a href="https://goo.gl/maps/HmQmcL9Lk6SP4A9A9">91 Rogers Ave, Somerville MA</a> on May 13th from 8:00p - 11:00p. You are encouraged to come dressed as your favorite Year of Nate; See below for outfit ideas. <i>Bowties will be available on a first-come, first-served basis.</i>
+        </h4>
       </div>
      <ImageList variant='woven' gap={10} cols={width < 500 ? 1 : (width < 1000 ? 2 : 3)}>
       {images.map((image) => {
-        const title = image.replace(/([a-z]?\..*\..*)|(\/.*\/)/gm,'').replace(/-00|-0|-/gm,' ');
+        const title = image.replace(/(z)|([a-z]?\..*\..*)|(\/.*\/)/gm,'').replace(/-00|-0|-/gm,' ');
         return (
           <ImageListItem key={image}>
             <img

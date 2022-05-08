@@ -12,13 +12,22 @@ body {
 }
 
 .App {
+    white-space: pre-wrap; /* CSS3 */    
     display: flex;
     flex-direction: column;
     $spacing: 10px;
     margin: $spacing;
     gap: $spacing;
+    align-items: center;
+    justify-content: center;
     .Header {
+        display: flex;
+        align-items: center;
+        font-size: 1.8rem;
         height: calc(100vh - #{$spacing} * 2);
+        text-align: center;
+        max-width: 45rem;
+        color: white;
     }
 
     @media screen and (min-width: 600px) {
