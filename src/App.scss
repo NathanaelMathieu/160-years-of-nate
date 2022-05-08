@@ -37,10 +37,6 @@ body {
         }
     }
 
-    :nth-child(2) {
-        position: fixed;
-    }
-
     @media screen and (min-width: 600px) {
         $spacing: 30px;
         margin: $spacing;
