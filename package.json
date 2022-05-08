@@ -1,7 +1,7 @@
 {
   "name": "160-years-of-nate",
   "version": "0.1.0",
-  "homepage": "https://nathanaelmathieu.github.io/",
+  "homepage": "160yearsofnate.party",
   "private": true,
   "dependencies": {
     "@csstools/normalize.css": "github:csstools/normalize.css",
