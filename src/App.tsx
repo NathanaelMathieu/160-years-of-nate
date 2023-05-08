@@ -21,7 +21,7 @@ function App() {
     <div className='App'>
       <div className='Header'>
         <h4>
-          While most people have their quarter life crisis at 25, Nate has decided to delay his until he is 40 years old. This effectively increases his lifespan to 160 years. Come celebrate his 24th of 160 years at <a href="https://goo.gl/maps/HmQmcL9Lk6SP4A9A9">91 Rogers Ave, Somerville MA</a> on May 13th from 8:00p - 11:00p! You are encouraged to come dressed as your favorite Year of Nate; See below for outfit ideas. <p></p> <i>Bowties will be available on a first-come, first-served basis.</i>
+          While most people have their quarter life crisis at 25, Nate has decided to delay his until he is 40 years old. This effectively increases his lifespan to 160 years. Come celebrate his 25th of 160 years at <a href="https://maps.app.goo.gl/2CFMeS1FPeYj1kLr5">25 Watson St, Cambridge MA</a> on May 12th from 9:00p - 11:00p! You are encouraged to come dressed as your favorite Year of Nate; See below for outfit ideas. <p></p> <i>Bowties will be available on a first-come, first-served basis.</i>
         </h4>
       </div>
      <ImageList variant='woven' gap={10} cols={width < 500 ? 1 : (width < 1000 ? 2 : 3)}>
